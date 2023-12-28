@@ -13,7 +13,7 @@
 </head>
 
 <body class="bg-[url('../src/svg/bg.svg')] bg-m-dark md:z-10 overflow-x-hidden">
-  <section class="container mx-auto lg:px-32 px-4">
+  <section class="container mx-auto lg:px-32 px-8">
     <header class=" text-m-title font-heming tracking-widest py-6  flex  justify-between items-center md:items-start">
       <div class="cursor-pointer">
         <p class="text-xl">Marcos Romero</p>
@@ -33,17 +33,24 @@
       </div>
     </header>
   </section>
-  <section class="container mx-auto lg:px-32 px-4 pt-16 flex flex-col">
+  <section class="container mx-auto lg:px-32 px-8 pt-24 flex flex-col md:flex-row md:justify-between md:items-center">
     <div class="font-heming text-4xl md:text-6xl font-normal text-gray-200 ">
       <h3 class="tracking-widest"> Hola!</h3>
       <p class="inline">Soy</p>
       <p id="typed" class="inline-block"></p>
       <p class="mt-2 text-base font-helvetica">Con amplia experiencia en diseño y desarrollo de sitios web utilizando tecnologias frontend.</p>
     </div>
-    <div class="flex gap-2 mt-4">
-      <img class="bg-gray-400 w-10 h-10 p-2 rounded-full" src="src/svg/github.svg" alt="Github">
-      <img class="bg-gray-400 w-10 h-10 p-2 rounded-full" src="src/svg/linkedin.svg" alt="Linkedin">
-      <img class="bg-gray-400 w-10 h-10 p-2 rounded-full" src="src/svg/email.svg" alt="Correo">
+    <div class="flex md:flex-col gap-6 mt-4">
+      <a href="https://github.com/M4rckR" target="_blank">
+        <img class="bg-gray-400 active:bg-gray-600 transition-all duration-150 w-10 h-10 md:w-14 md:h-14 p-2 rounded-full" src="src/svg/github.svg" alt="Github">
+      </a>
+      <a href="https://www.linkedin.com/in/marckromgar/" target="_blank">
+        <img class="bg-gray-400 active:bg-gray-600 transition-all duration-150 w-10 h-10 md:w-14 md:h-14 p-2 rounded-full" src="src/svg/linkedin.svg" alt="Linkedin">
+      </a>
+      <a href="mailto:marckromerogar@gmail.com">
+        <img class="bg-gray-400 active:bg-gray-600 transition-all duration-150 w-10 h-10 md:w-14 md:h-14 p-2 rounded-full" src="src/svg/email.svg" alt="Correo">
+      </a>
+      
     </div>
   </section>
 
@@ -53,7 +60,7 @@
     <a class="text-xs" href="https://www.flaticon.es/iconos-gratis/red" title="red iconos">Red iconos creados por Alfredo Creates - Flaticon</a>
   </footer> -->
 
-  <script src="js/typed.js"></script>
+  <script src="../js/typed.js"></script>
 </body>
 
 </html>
