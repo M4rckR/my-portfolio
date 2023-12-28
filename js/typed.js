@@ -1,6 +1,9 @@
-let typed = new Typed('#typed', {
-    strings : ['Marcos', 'frontend', 'autodidacta'],
-    typeSpeed : 50,
-    delaySpeed :50,
-    loop : true
-});
+
+document.addEventListener('DOMContentLoaded', function() {
+    let typed = new Typed('#typed', {
+        strings : ['Marcos', 'frontend', 'autodidacta'],
+        typeSpeed : 50,
+        backDelay :50,
+        loop : true
+    });
+})
