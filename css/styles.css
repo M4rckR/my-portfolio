@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Heming Variable;
+    src: local("Heming Variable"),local("Heming-Variable"),url(/src/fonts/heming_variable-webfont-6b933f75.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Helvetica Light Regular;
+    src: local("Helvetica Light Regular"),local("Helvetica-Light-Regular"),url(/src/fonts/helvetica_light_regular-webfont-9ff46d44.woff2) format("woff");
+    font-weight: light;
+    font-style: normal
+}

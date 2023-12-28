@@ -1,13 +1,60 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Marcos Romero">
+  <meta name="copyright" content="Marcos Romero">
+  <title>Marcos.R Portfolio</title>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+  <link rel="icon" href="src/iconos/icono-pestania.png">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="bg-[url('../src/svg/bg.svg')] bg-m-dark md:z-10 overflow-x-hidden">
+  <section class="container mx-auto lg:px-32 px-4">
+    <header class=" text-m-title font-heming tracking-widest py-6  flex  justify-between items-center md:items-start">
+      <div class="cursor-pointer">
+        <p class="text-xl">Marcos Romero</p>
+        <p class="text-xs hidden md:block">Desarrollador Web &lt;/&gt;</p>
+      </div>
+      <div class="flex justify-end">
+        <div class="flex flex-col gap-1 max-w-8 md:hidden  cursor-pointer scale-125">
+          <div class="bg-white w-6  h-0.5"></div>
+          <div class="bg-white w-6 h-0.5"></div>
+          <div class="bg-white w-4 h-0.5 self-end"></div>
+        </div>
+        <div class="absolute top-0 bottom-0 pt-8 pr-8  bg-black right-0 md:bg-transparent w-[50%] md:w-auto  md:relative flex flex-col items-end md:items-start md:pt-0 md:pl-0 md:pr-0 md:flex-row gap-6 max-w-[20rem] md:z-0 translate-x-full md:translate-x-0 hidden">
+          <a class="hover:text-gray-400 after:block after:w-0 hover:after:w-[50%] after:bg-gray-400 after:h-0.5 after:transition-all duration-150" href="#">Sobre mi</a>
+          <a class="hover:text-gray-400 after:block after:w-0 hover:after:w-[50%] after:bg-gray-400 after:h-0.5 after:transition-all duration-150" href="#">Proyectos</a>
+          <a class="hover:text-gray-400 after:block after:w-0 hover:after:w-[50%] after:bg-gray-400 after:h-0.5 after:transition-all duration-150" href="#">Contactos</a>
+        </div>
+      </div>
+    </header>
+  </section>
+  <section class="container mx-auto lg:px-32 px-4 pt-16 flex flex-col">
+    <div class="font-heming text-4xl md:text-6xl font-normal text-gray-200 ">
+      <h3 class="tracking-widest"> Hola!</h3>
+      <p class="inline">Soy</p>
+      <p id="typed" class="inline-block"></p>
+      <p class="mt-2 text-base font-helvetica">Con amplia experiencia en diseño y desarrollo de sitios web utilizando tecnologias frontend.</p>
+    </div>
+    <div class="flex gap-2 mt-4">
+      <img class="bg-gray-400 w-10 h-10 p-2 rounded-full" src="src/svg/github.svg" alt="Github">
+      <img class="bg-gray-400 w-10 h-10 p-2 rounded-full" src="src/svg/linkedin.svg" alt="Linkedin">
+      <img class="bg-gray-400 w-10 h-10 p-2 rounded-full" src="src/svg/email.svg" alt="Correo">
+    </div>
+  </section>
+
+
+
+  <!-- <footer>
+    <a class="text-xs" href="https://www.flaticon.es/iconos-gratis/red" title="red iconos">Red iconos creados por Alfredo Creates - Flaticon</a>
+  </footer> -->
+
+  <script src="js/typed.js"></script>
+</body>
+
 </html>
+
