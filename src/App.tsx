@@ -1,11 +1,14 @@
-import { NavPort } from "./components/header/NavPort"
+import { NavPort } from "./components/NavPort"
 
 
 export const App = () => {
   
   return (
     <>
-      <NavPort />
+      <div>
+        <NavPort />
+        
+      </div>
     </>
   )
 }

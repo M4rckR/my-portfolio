@@ -13,7 +13,9 @@
     "animate.css": "^4.1.1",
     "portfoliomarkc": "file:",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.3.0",
+    "react-mouse-parallax": "^1.3.5"
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",
