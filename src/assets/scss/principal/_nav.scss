@@ -37,6 +37,10 @@
         display: flex;
         gap: 1.2rem;	
 
+        @include m.tablet {
+            display: none;
+        }
+
         a {
             color: v.$text__body;
             font-size: 2.8rem;
@@ -45,13 +49,18 @@
 }
 
 .portAnc {
-    display: flex;
     flex-direction: column;
     gap: 10px;
+    display: none;
+
+    @include m.tablet {
+        display: flex;
+    }
 
     a {
         display: flex;
         align-items: center;
+        align-self: self-start;
         padding: 4px 0;
         gap: 12px;
         color: v.$text__body__claro;

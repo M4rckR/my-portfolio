@@ -1,0 +1,27 @@
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+
+.portfolio {
+    display: block;
+
+    @include m.tablet {
+        @include m.grid (12, 1.6rem);
+    }
+
+    &__nav {
+        grid-column: 1/5;
+
+        @include m.tablet {
+            grid-column: 1/6;
+        }
+    }
+
+    &__info {
+        grid-column: 7/13;
+        padding-top: 0;
+
+        @include m.tablet {
+            padding-top: 8.8rem;
+        }
+    }
+}

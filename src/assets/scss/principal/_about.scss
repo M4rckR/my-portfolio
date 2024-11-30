@@ -1,0 +1,26 @@
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+
+.about {
+    color: v.$text__body;
+    font-size: 16px;
+    line-height: 26px;
+
+    &__infoHidden {
+        display: block;
+
+        @include m.tablet {
+            display: none;
+        }
+    }
+
+
+
+    strong {
+        color: rgba(255, 255, 255, 0.808);
+    }
+
+    p {
+        margin-top: 0;
+    }
+}

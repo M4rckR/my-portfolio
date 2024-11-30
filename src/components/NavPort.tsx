@@ -4,7 +4,7 @@ import { IoLogoLinkedin } from "react-icons/io";
 export const NavPort = () => {
   return (
     <>
-      <section className="portNav contenedor">
+      <section className="portNav">
         <p className="portNav__name">Marcos Romero</p>
         <p className="portNav__role">Desarrollador Frontend</p>
 
@@ -14,7 +14,7 @@ export const NavPort = () => {
         </p>
 
         <div className="portNav__redes">
-          <a href="#">
+          <a href="#about__info">
             {" "}
             <FaGithub />{" "}
           </a>
