@@ -99,5 +99,10 @@
 }
 
 .continerFixed {
-    position: fixed;
+    display: block;
+
+    @include m.tablet {
+        position: fixed;
+    }
+
 }
