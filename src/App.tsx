@@ -1,4 +1,5 @@
 import { About } from "./components/About"
+import { Experience } from "./components/Experience"
 import { NavPort } from "./components/NavPort"
 
 
@@ -12,7 +13,7 @@ export const App = () => {
         </section>
         <section className="portfolio__info infoPort">
           <About />
-          
+          <Experience />
         </section>
       </div>
     </>

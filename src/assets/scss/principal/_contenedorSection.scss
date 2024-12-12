@@ -3,6 +3,7 @@
 
 .portfolio {
     display: block;
+    position: relative;
 
     @include m.tablet {
         @include m.grid (12, 1.6rem);

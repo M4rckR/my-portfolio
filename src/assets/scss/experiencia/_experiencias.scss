@@ -1,0 +1,45 @@
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+
+
+.experiencia {
+    display: relative;
+    @include m.grid(1, 2.4rem);
+    color: v.$text__body;
+    cursor: pointer;
+
+
+
+    &__title {
+        margin: 0;
+    }
+
+    &__item {
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        column-gap: 1.2rem;
+    }
+
+    &__time {
+        grid-column: span 4;
+        font-size: 14px;
+    }
+
+    &__text {
+        grid-column-end: span 8;
+    }
+
+
+    &__description {
+        font-size: 1.4rem;
+        line-height: 2.2rem;
+        color: v.$text__body__claro;
+
+        a {
+            display: inline-block;
+            color:  v.$text__body;
+            text-decoration: underline;
+        }
+    }
+
+}
